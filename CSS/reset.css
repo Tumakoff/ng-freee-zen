@@ -1,28 +1,7 @@
-* {
-  margin: 0;
+*,*::before,*::after
+{
   padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  color: inherit;
-  font-size: inherit;
-  background: none;
-  border: none;
-}
-
-select {
-  border: none;
-  appearance: none;
+  margin: 0;
 }
 
 h1,
@@ -35,6 +14,28 @@ h6 {
   font-size: inherit;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 img {
   width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+select {
+  appearance: none;
+  border: none;
+  background: none;
 }
